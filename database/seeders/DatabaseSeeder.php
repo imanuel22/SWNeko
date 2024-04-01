@@ -105,13 +105,14 @@ class DatabaseSeeder extends Seeder
 
 
         Character::create([
-            'name' => 'selee',
+            'name' => 'Selee',
             'slug' => 'selee',
             'id_element' => '1',
             'id_path' => '1',
             'rarity' => '1',
             'gender' => 'Female',
-            'id_affiliation'=>'1',
+            'id_faction'=>'1',
+            'id_world'=>'1',
             'release_data'=>'1',
             'icon'=>'1',
             'portrait'=>'1',
@@ -120,6 +121,7 @@ class DatabaseSeeder extends Seeder
             'id_skill'=>'1',
             'id_trace'=>'1',
             'id_stat'=>'1',
+            'id_voice_actor'=>'1',
         ]);
     }
 }

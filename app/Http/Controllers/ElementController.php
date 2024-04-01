@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Storage;
-use App\Models\element;
+use App\Models\Element;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Cviebrock\EloquentSluggable\Services\SlugService;
@@ -15,7 +15,7 @@ class ElementController extends Controller
     public function index()
     {
         return view('dashboard.element.index',[
-            'elements' => element::all(),
+            'elements' => Element::all(),
         ]);
     }
 

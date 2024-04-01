@@ -19,7 +19,8 @@ return new class extends Migration
             $table->foreignId('id_path');
             $table->integer('rarity');
             $table->enum('gender',['Female','Male']);
-            $table->foreignId('id_affiliation');
+            $table->foreignId('id_faction');
+            $table->foreignId('id_world');
             $table->date('release_data');
             $table->text('icon');
             $table->text('portrait');
@@ -28,6 +29,7 @@ return new class extends Migration
             $table->foreignId('id_skill');
             $table->foreignId('id_trace');
             $table->foreignId('id_stat');
+            $table->foreignId('id_voice_actor');
             $table->timestamps();
         });
     }

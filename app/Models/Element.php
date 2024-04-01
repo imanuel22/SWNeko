@@ -10,6 +10,11 @@ class Element extends Model
 {
     use HasFactory,Sluggable;
     protected $guarded = ['id'];
+
+    public function characters(){
+        return $this->hasMany(Character::class);
+    }
+    
     public function getRouteKeyName():mixed
     {
         return 'slug';

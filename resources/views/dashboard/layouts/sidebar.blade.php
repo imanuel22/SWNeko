@@ -27,9 +27,13 @@
             </a>
             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                 <nav class="sb-sidenav-menu-nested nav">
-                    <a class="nav-link" href="/dashboard/affiliation">
+                    <a class="nav-link" href="/dashboard/faction">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                        Affiliation
+                        Faction
+                    </a>
+                    <a class="nav-link" href="/dashboard/world">
+                        <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                        world
                     </a>
                     <a class="nav-link" href="/dashboard/element">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
